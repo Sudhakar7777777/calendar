@@ -37,7 +37,7 @@ class Appointments extends Component {
   render() {
     return (
       <div>
-        <div className="input-group mb-3">
+        <div className="input-group mb-3 col-12">
           <input
             type="text"
             className="form-control"
@@ -48,6 +48,16 @@ class Appointments extends Component {
           <div className="input-group-append">
             <span className="input-group-text" id="basic-addon2">
               @example.com
+            </span>
+          </div>
+          <div className="col-2">
+            <span className="input-group-text" id="basic-addon2">
+              Add
+            </span>
+          </div>
+          <div className="col-2">
+            <span className="input-group-text" id="basic-addon2">
+              Delete
             </span>
           </div>
         </div>
